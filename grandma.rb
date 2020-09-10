@@ -12,12 +12,13 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak = ""
+speak = "grandma"
 
-if speak = speak.downcase
+def speak_to_grandma(speak)
+if speak == speak.downcase
   puts "HUH?! SPEAK UP, SONNY!"
-elsif speak = speak.upcase
+elsif speak == speak.upcase
   puts "NO, NOT SINCE 1938!"
-elsif speak = "I LOVE YOU GRANDMA!"
+elsif speak == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
 else print "error"
