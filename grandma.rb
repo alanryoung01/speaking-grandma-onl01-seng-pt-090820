@@ -19,5 +19,4 @@ def speak_to_grandma(speak)
     puts "HUH! SPEAK UP, SONNY!"
   elsif speak == speak.upcase
     puts "NO, NOT SINCE 1938!"
-  else print "error"
   end
