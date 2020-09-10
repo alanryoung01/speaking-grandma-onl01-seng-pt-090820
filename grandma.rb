@@ -12,7 +12,6 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak = "grandma"
 
 def speak_to_grandma(speak)
 if speak == speak.downcase
@@ -22,3 +21,4 @@ elsif speak == speak.upcase
 elsif speak == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
 else print "error"
+end
